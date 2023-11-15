@@ -9,7 +9,6 @@ const CharList = () => {
   const [deleteChar, { loading: removeLoading, error: removeError }] =
     useMutation(REMOVE_CHAR, {
       update(cache, { data: { removePerson } }) {
-        console.log(removePerson);
         cache.modify({
           fields: {
             allPeople(currChars = []) {

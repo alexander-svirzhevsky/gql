@@ -17,7 +17,6 @@ const AddChar = () => {
     // refetchQueries: [{ query: GET_ALL_CHARS }],
     update(cache, { data: { createPerson } }) {
       const { characters } = cache.readQuery({ query: GET_ALL_CHARS });
-      console.log(createPerson);
 
       cache.writeQuery({
         query: GET_ALL_CHARS,
