@@ -1,34 +1,13 @@
 module.exports = {
-  planets: [
-    {
-      name: "Tatooine",
-      terrain: "desert",
-      population: "200000",
-    },
-    {
-      name: "Alderaan",
-      terrain: "grasslands, mountains",
-      population: "2000000000",
-    },
-    {
-      name: "Yavin IV",
-      terrain: "jungle, rainforests",
-      population: "1000",
-    },
-  ],
   people: [
     {
+      id: 1,
       name: "Luke Skywalker",
-      height: "172",
-      hair_color: "blond",
-      eye_color: "blue",
       force: true,
     },
     {
+      id: 2,
       name: "C-3PO",
-      height: "167",
-      hair_color: "n/a",
-      eye_color: "yellow",
       force: false,
     },
   ],
